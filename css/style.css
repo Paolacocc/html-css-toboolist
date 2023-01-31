@@ -1,1 +1,32 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#F6F8F9;
+}
+/* common */
+/* header */
+header{
+    height: 80px;
+    background-color: white;
+    line-height: 80px;
+}
+.main-title{
+    background-color: white;
+    display: inline-block;
+    line-height: 80px;
+    font-size: 4rem;
+    vertical-align: middle;
+}
+#logo-img{
+   width: 80px;
+   vertical-align: middle;
+   background-color: white;
+    
+}
+.header-bar{
+    padding: 20px;
+    background-color: white
+}
+/* main */
