@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background-color:#F6F8F9;
+    font-size: 1.5rem;
 }
 /* common */
 /* header */
@@ -11,6 +11,7 @@ header{
     height: 80px;
     background-color: white;
     line-height: 80px;
+    margin-bottom: 40px;
 }
 .main-title{
     background-color: white;
@@ -23,10 +24,80 @@ header{
    width: 80px;
    vertical-align: middle;
    background-color: white;
-    
+
 }
 .header-bar{
     padding: 20px;
-    background-color: white
+    background-color: white;
 }
 /* main */
+li{
+    list-style-type: none;
+}
+.main-block{
+    margin-top: 50px;
+    background-color:#e0e2e3;
+    margin-top: 50px;
+
+    
+}
+.main-part{
+    margin: 0 auto;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    
+}
+.buttons a{
+    margin: 20px;
+    text-decoration: none;
+}
+.task-button{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1 solid;
+    color: white;
+    background-color: blue;
+
+   
+}
+.section-button{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1 solid black;
+    color: grey;
+}
+.operation-list{
+    margin-top: 50px;
+}
+.labels{
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: aquamarine;
+    line-height: 80px;
+    
+}
+.blue{
+    background-color: #47ADF1;
+}
+.pink{
+    background-color: #E28AB8;
+}
+.green{
+    background-color: #64C0A9;
+}
+.light-green{
+    background-color: #B0C926;
+}
+.orange{
+    background-color: #F29E33;
+}
+.purple{
+    background-color: #9C72E4;
+}
