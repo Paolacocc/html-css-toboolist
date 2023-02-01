@@ -5,9 +5,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
 }
+body{
+    background-color:#e0e2e3;
+   
+
+}
 /* common */
 /* header */
 header{
+    /* padding: 0 20px; */
     height: 80px;
     background-color: white;
     line-height: 80px;
@@ -16,7 +22,6 @@ header{
 .main-title{
     background-color: white;
     display: inline-block;
-    line-height: 80px;
     font-size: 4rem;
     vertical-align: middle;
 }
@@ -34,41 +39,38 @@ header{
 li{
     list-style-type: none;
 }
-.main-block{
-    margin-top: 50px;
-    background-color:#e0e2e3;
-    margin-top: 50px;
 
-    
-}
 .main-part{
-    margin: 0 auto;
+    margin: 100px auto;
     width: 80%;
     background-color: white;
-    padding: 20px;
+    /* padding: 20px; */
+    border-radius: 5px;
     
 }
-.buttons a{
-    margin: 20px;
-    text-decoration: none;
+/* buttons */
+.action{
+    padding: .8rem 1.4rem;
+    border-bottom: 4px solid lightgray;
 }
-.task-button{
-    width: 40px;
-    height: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    border: 1 solid;
+.btn{
+    border: 0;
+    cursor: pointer;
+    font-size: .8rem;
+    border-radius: 5px;
+    padding: .3rem .8rem;
+}
+.btn-filled{
+  
+    border: 1 solid #47ADF1;
     color: white;
-    background-color: blue;
+    background-color: #47ADF1;
 
    
 }
-.section-button{
-    width: 40px;
-    height: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    border: 1 solid black;
+.btn-empty{
+    background-color: white;
+    border: 1px solid gray;
     color: grey;
 }
 .operation-list{
@@ -77,7 +79,7 @@ li{
 .labels{
     width: 40px;
     height: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 15px;
     background-color: aquamarine;
     line-height: 80px;
